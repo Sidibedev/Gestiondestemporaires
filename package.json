@@ -1,0 +1,23 @@
+{
+  "name": "Gestion-des-temporaires",
+  "icon": "public/img/new_logo.png",
+  "version": "1.0.0",
+  "description": "Une application bureau qui permet de gerer les temporaires",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.8"
+  }
+}
