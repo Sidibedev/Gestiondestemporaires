@@ -1,5 +1,5 @@
-function Temporaire(nom , prenom , ddn , adresse , cin , tel) {
+function Temporaire(nom , prenom ,adresse , cin , tel , ddn) {
     return (
-        nom , prenom , ddn , adresse , cin , tel
+        nom , prenom ,  adresse , cin , tel,ddn
     )
 }

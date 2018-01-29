@@ -1,3 +1,4 @@
+
 const electron = require('electron')
 // Module to control application life.
 const app = electron.app
@@ -16,9 +17,9 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1800, 
-    height: 1200,
-    icon : 'assets/3.png',
+    width: 1000, 
+    height: 800,
+
     center:true,
     
   })

@@ -5,7 +5,9 @@ function TemporaireDAO() {
         var c = connexion.connected();
 
 
-        c.query('INSERT INTO temporaire SET ?' ,temporaire, function(err , result) {
+        var sql = 'INSERT INTO temporaire(nom , prenom, adresse , cin , tel , ddn)  VALUES ?';
+        
+        c.query(sql ,[temporaire], function(err , result) {
             if(err) {
                 alert(err.message)
                 callback(false)

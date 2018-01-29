@@ -27,3 +27,8 @@ function AjouterTemporaire() {
        }
    )
 }
+
+
+function afficherTemporaire() {
+    
+}
