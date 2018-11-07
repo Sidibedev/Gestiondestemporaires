@@ -21,6 +21,7 @@
     "electron": "~1.7.8"
   },
   "dependencies": {
-    "sequelize": "^4.32.2"
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.6"
   }
 }

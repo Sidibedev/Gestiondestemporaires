@@ -1,11 +1,15 @@
 
 const electron = require('electron')
 // Module to control application life.
+require('electron-reload')(__dirname, {
+    // Note that the path to electron may vary according to the main file
+    electron: require(`${__dirname}/node_modules/electron`)
+});
 const app = electron.app
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
 
-
+console.log('youpii')
 
 const path = require('path')
 const url = require('url')
@@ -17,11 +21,11 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1000, 
+    width: 1600,
     height: 800,
 
     center:true,
-    
+
   })
  // const childWindow = new BrowserWindow({parent: mainWindow});
 
@@ -68,4 +72,3 @@ app.on('activate', function () {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
-
