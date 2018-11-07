@@ -9,7 +9,7 @@ const app = electron.app
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
 
-console.log('youpi ca marche')
+console.log('cest chiant')
 
 const path = require('path')
 const url = require('url')
